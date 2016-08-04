@@ -12,6 +12,7 @@
 	@Learn:
 		Basic: 		http://codex.wordpress.org/Editing_wp-config.php
 		Advanced:	http://premium.wpmudev.org/blog/wordpress-wp-config-file-guide/
+		Refference:     https://codex.wordpress.org/Editing_wp-config.php#WordPress_Upgrade_Constants
 
 	@Discuss: 	https://github.com/pixeline/wp-config-supercharged/issues
 
@@ -110,7 +111,7 @@ define('AUTOSAVE_INTERVAL', 120); // in seconds
 define('EMPTY_TRASH_DAYS', 7); // in days (use 0 to disable trash)
 
 // WORDPRESS' LANGUAGE _ Default is 'en_EN'
-define('WPLANG', 'fr_FR');
+define('WPLANG', 'fr_EN');
 
 // DB INTERNALS
 define('DB_CHARSET', 'utf8');
