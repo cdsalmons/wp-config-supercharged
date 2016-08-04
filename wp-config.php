@@ -13,7 +13,10 @@
 		Basic: 		http://codex.wordpress.org/Editing_wp-config.php
 		Advanced:	http://premium.wpmudev.org/blog/wordpress-wp-config-file-guide/
 		Refference:     https://codex.wordpress.org/Editing_wp-config.php#WordPress_Upgrade_Constants
-
+                
+                Security:       https://community.rackspace.com/products/f/25/t/4447
+                                https://thecustomizewindows.com/2014/04/hardening-rackspace-cloud-server-wordpress-part-1/
+                                
 	@Discuss: 	https://github.com/pixeline/wp-config-supercharged/issues
 
 	@Author:
@@ -96,7 +99,7 @@ default:
 	define('FS_METHOD', 'ftpext');
 	define('FTP_USER', 'YOUR FTP LOGIN');
 	define('FTP_PASS', 'YOUR FTP PASSWORD');
-	define('FTP_HOST', 'YOUR FTP HOST (without http:// or ftp://)');
+	define('FTP_HOST', '127.0.0.1:22'); // Without http:// or ftp://
 	define('FTP_SSL', false);
 */
 	break;
